@@ -39,6 +39,7 @@ public class Exp1H {
         double bal = sc.nextDouble();
         BankAccount a = new BankAccount();
         a.balance = bal;
+        int ab;
         System.out.println("Enter the amount to deposit: ");
         double deposit = sc.nextDouble();
         a.deposit(deposit);
